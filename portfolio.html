@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Representación Avanzada_2DG</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Poppins: wght @ 100 & display = swap" rel="hoja de estilo">
+    <style type="text/css">
+        /*reset*/
+        * {
+0000000000000000000            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        body {
+            font-size: 15px;
+            font-family: 'Arial'
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: #e0fefe;
+            color: black;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            padding: 0 2em;
+        }
+
+        h1 {
+            font-size: 10vw;
+            line-height: 13vw;
+        }
+
+        h2 {
+            font-size: 8vw;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-size: 6vw;
+            font-weight: 500;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #c7ceea;
+            width: 100%;
+            height: 143px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            color: black;
+            font-size: 1.2em;
+            font-family: 'Arial';
+            text-transform: capitalize;
+        }
+
+        main {
+            background: #353535;
+            padding: 3em 2em 2.5em 2em;
+        }
+
+        section {
+            width: 100%;
+            display: flex;
+             background-image: url()
+            flex-direction: column;
+            background: #EAE2B7;
+            padding: 1em 1em 0em 1em;
+            margin: 0 0 1.5em 0;
+        }
+
+        section figure {
+            height: 224px;
+        }
+
+        section figure img {
+            height: 224px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        section figcaption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3em;
+            font-family: 'Arial';
+            text-transform: capitalize;
+            color: #000000;
+        }
+
+        footer {
+            display: flex;
+            height: 300px;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background: #ffdac1;
+            padding: 2em 2em 1em 2em;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        .xxss {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            body {
+                background: #ffffff;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            header {
+                background-image: url;
+            }
+            main {
+                background: #ffffd8;
+            }
+            h1{
+                font-size: 6vw;
+                width: 100%;
+                padding: 0 25% 0 25%;
+                line-height: 8vw
+            }
+            h2{
+                font-size: 4vw;
+                padding: 0 25% 0 25%; 
+            }
+            h3{
+                font-size: 3vw;
+                padding: 0 25% 0 25%; 
+            }
+            nav {
+                position: relative;
+                justify-content: center;
+            }
+            nav a{
+                padding: 0 2em;
+            }
+            .grid-container{
+                background: #b5ead7;
+                padding: 0 15%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            section{
+                width: 40%;
+                margin: 1.5em 1em 1em 1em;
+            }
+            footer{
+                flex-direction: row;
+            }
+            .xxss{
+                width: 75%;
+                justify-content: space-between;
+            }
+            .email{
+                display: flex;
+                width: 25%;
+                justify-content: flex-end;
+            }
+        }
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            main {
+                background: #000000;
+            }
+            h1 br{
+                display: none;
+            }
+            h1{
+                font-size: 5vw;
+                padding: 0 16.6em;
+                background: white;
+            }
+            h2{
+                font-size: 5vw;
+                padding: 0 16.6em;
+                background: white;
+            }
+            h3{
+                font-size: 5vw;
+                padding: 0 16.6em;
+                background: white;
+            }
+            nav {
+                position: relative;
+                justify-content: left;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Sistemas de representación</h1>
+        <h2>EASDAlcoi - 2n Diseño Grafico</h2>
+        <h3>Laura Moreno-Arrones Comadrán</h3>
+    </header>
+    <nav>
+        <a href="#">proyectos</a>
+        <a href="#">contactos</a>
+    </nav>
+     <main>
+        <div class="grid-container">
+            <section>
+                <figure>
+                    <img src="img/Po.jpg" alt="llocweb">
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/wals.jpeg" alt="llocweb">
+                </figure>
+                <figcaption>
+                    <h4>App</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/massimo.jpeg" alt="llocweb">
+                </figure>
+                <figcaption>
+                    <h4>Biografía</h4>
+                </figcaption>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="xxss">
+            <p><a href="#">instagram</a></p>
+            <p><a href="#">facebook</a></p>
+            <p><a href="#">twitter</a></p>
+        </div>
+        <div class="mail">
+            <p><a href="mailto:morenoarronescl@easdalcoi.es"></a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
